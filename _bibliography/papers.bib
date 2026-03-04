@@ -1,6 +1,3 @@
----
----
-
 @inproceedings{vahdatiunmasking,
   title        = {Unmasking Puppeteers: Leveraging Biometric Leakage to Expose Impersonation in AI-Based Videoconferencing},
   author       = {Vahdati, Danial Samadi and Nguyen, Tai Duc and Prashnani, Ekta and Nagano, Koki and Gallo, Orazio and Stamm, Matthew},
@@ -9,7 +6,7 @@
   abbr         = {NeurIPS},
   selected     = {true},
   abstract     = {AI-based talking-head videoconferencing systems reduce bandwidth by sending a compact pose-expression latent and re-synthesizing RGB at the receiver, but this latent can be puppeteered, letting an attacker hijack a victim's likeness in real time. Because every frame is synthetic, deepfake and synthetic video detectors fail outright. To address this security problem, we exploit a key observation: the pose-expression latent inherently contains biometric information of the driving identity. Therefore, we introduce the first biometric leakage defense without ever looking at the reconstructed RGB video: a pose-conditioned, large-margin contrastive encoder that isolates persistent identity cues inside the transmitted latent while cancelling transient pose and expression. A simple cosine test on this disentangled embedding flags illicit identity swaps as the video is rendered. Our experiments on multiple talking-head generation models show that our method consistently outperforms existing puppeteering defenses, operates in real-time, and shows strong generalization to out-of-distribution scenarios.}
-
+}
 @InProceedings{Vahdati_2024_CVPR,
   author       = {Vahdati, Danial Samadi and Nguyen, Tai D. and Azizpour, Aref and Stamm, Matthew C.},
   title        = {Beyond Deepfake Images: Detecting AI-Generated Videos},
@@ -20,7 +17,7 @@
   abbr         = {CVPR},
   selected     = {true},
   abstract     = {Recent advances in generative AI have led to the development of techniques to generate visually realistic synthetic video. While a number of techniques have been developed to detect AI-generated synthetic images in this paper we show that synthetic image detectors are unable to detect synthetic videos. We demonstrate that this is because synthetic video generators introduce substantially different traces than those left by image generators. Despite this we show that synthetic video traces can be learned and used to perform reliable synthetic video detection or generator source attribution even after H. 264 re-compression. Furthermore we demonstrate that while detecting videos from new generators through zero-shot transferability is challenging accurate detection of videos from a new generator can be achieved through few-shot learning.}
-
+}
 @InProceedings{Vahdati_2023_CVPR,
   author       = {Vahdati, Danial Samadi and Nguyen, Tai Duc and Stamm, Matthew C.},
   title        = {Defending Low-Bandwidth Talking Head Videoconferencing Systems From Real-Time Puppeteering Attacks},
@@ -31,7 +28,7 @@
   abbr         = {CVPR},
   selected     = {false},
   abstract     = {Talking head videos have gained significant attention in recent years due to advances in AI that allow for the synthesis of realistic videos from only a single image of the speaker. Recently, researchers have proposed low bandwidth talking head video systems for use in applications such as videoconferencing and video calls. However, these systems are vulnerable to puppeteering attacks, where an attacker can control a synthetic version of a different target speaker in real-time. This can be potentially used spread misinformation or committing fraud. Because the receiver always creates a synthetic video of the speaker, deepfake detectors cannot protect against these attacks. As a result, there are currently no defenses against puppeteering in these systems. In this paper, we propose a new defense against puppeteering attacks in low-bandwidth talking head video systems by utilizing the biometric information inherent in the facial expression and pose data transmitted to the receiver. Our proposed system requires no modifications to the video transmission system and operates with low computational cost. We present experimental evidence to demonstrate the effectiveness of our proposed defense and provide a new dataset for benchmarking defenses against puppeteering attacks.}
-
+}
 @article{vahdati2023detecting,
   title        = {Detecting GAN-Generated Synthetic Images Using Semantic Inconsistencies},
   author       = {Vahdati, Danial Samadi and Stamm, Matthew C.},
@@ -43,3 +40,4 @@
   abbr         = {EI},
   selected     = {false},
   abstract     = {In the past several years, generative adversarial networks have emerged that are capable of creating realistic synthetic images of human faces. Because these images can be used for malicious purposes, researchers have begun to develop techniques to synthetic images. Currently, the majority of existing techniques operate by searching for statistical traces introduced when an image is synthesized by a GAN. An alternative approach that has received comparatively less research involves using semantic inconsistencies detect synthetic images. While GAN-generated synthetic images appear visually realistic at first glance, they often contain subtle semantic inconsistencies such as inconsistent eye highlights, misaligned teeth, unrealistic hair textures, etc. In this paper, we propose a new approach to detect GAN-generated images of human faces by searching for semantic inconsistencies in multiple different facial features such as the eyes, mouth, and hair. Synthetic image detection decisions are made by fusing the outputs of these facial-feature-level detectors. Through a series of experiments, we demonstrate that this approach can yield strong synthetic image detection performance. Furthermore, we experimentally demonstrate that our approach is less susceptible to performance degradations caused by post-processing than CNN-based detectors utilize statistical traces.}
+}

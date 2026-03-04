@@ -6,7 +6,7 @@ gem 'jekyll'
 group :jekyll_plugins do
     gem 'jekyll-3rd-party-libraries'
     gem 'jekyll-archives-v2'
-    gem 'jekyll-cache-bust'
+    # gem 'jekyll-cache-bust'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
@@ -20,7 +20,7 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-socials'
     gem 'jekyll-tabs'
-    gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
+    ##gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
