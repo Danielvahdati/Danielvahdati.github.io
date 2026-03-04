@@ -168,7 +168,7 @@ exclude:
   - vendor
 
 plugins:
-  - jekyll-archives
+  - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -214,3 +214,16 @@ external_links:
 # Sitemap
 # -----------------------------------------------------------------------------
 sitemap: true
+
+# -----------------------------------------------------------------------------
+# Third Party Libraries
+# -----------------------------------------------------------------------------
+third_party_libraries:
+  download: false
+  bootstrap-table:
+    integrity:
+      css: "sha256-uRX+amzAa5hNx2+RJpkuBT3hMywRCfZsh64hJhfYW2Q="
+      js: "sha256-jJjBjhCiUWQeNW7AwcHRcMvMFq6I5HKaZMVs65N+bvg="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.6/dist/bootstrap-table.min.css"
+      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.6/dist/bootstrap-table.min.js"

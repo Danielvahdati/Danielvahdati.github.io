@@ -2,33 +2,40 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Candidate, Electrical & Computer Engineering · <a href="https://drexel.edu/ece/">Drexel University</a> · Philadelphia, PA
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>📍 Philadelphia, PA</p>
+    <p>📧 <a href="mailto:danielsvahdati@gmail.com">danielsvahdati@gmail.com</a></p>
+    <p>🎓 Graduating Summer 2026</p>
+    <p>💼 Open to industry roles</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+selected_papers: true
+social: true
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: false
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: false
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a PhD candidate in Electrical & Computer Engineering at Drexel University, where I research **deepfake detection**, **AI security**, and **synthetic media forensics** in the [Multimedia & Information Security Lab (MISL)](https://misl.ece.drexel.edu/) under Prof. Matthew C. Stamm.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My work focuses on building detection systems that are fast enough to be deployed in the real world — not just accurate in a lab. My real-time deepfake detector runs at **75 FPS with 97.7% accuracy**, and my research has been published at **NeurIPS 2025** and **CVPR**. I collaborate with [NVIDIA Research](https://www.nvidia.com/en-us/research/) and my work is supported by federally funded projects totaling over $3M.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm graduating in Summer 2026 and actively looking for **Research Scientist**, **Applied Scientist**, and **ML Engineer** roles in AI security, content integrity, and synthetic media. If you're working on hard problems in these areas, I'd love to connect.
+
+**Research interests:** deepfake detection · synthetic media forensics · adversarial ML · real-time vision systems · AI security
+
+---
+
+**News**
+- 🏆 **Dec 2025** — Presented poster at NeurIPS 2025, San Diego
+- 📄 **2025** — Unmasking Puppeteers: Leveraging Biometric Leakage to Disarm Impersonation in AI-based Videoconferencing paper accepted at NeurIPS 2025 main conference
+- 🤝 **2024** — NVIDIA Research collaboration + $150K research gift
+- 📄 **2024** — Beyond Deepfake Images: Detecting AI-Generated Videos Paper accepted at CVPR Workshop
