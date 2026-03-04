@@ -1,115 +1,45 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@inproceedings{vahdatiunmasking,
+  title        = {Unmasking Puppeteers: Leveraging Biometric Leakage to Expose Impersonation in AI-Based Videoconferencing},
+  author       = {Vahdati, Danial Samadi and Nguyen, Tai Duc and Prashnani, Ekta and Nagano, Koki and Gallo, Orazio and Stamm, Matthew},
+  booktitle    = {The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  year         = {2025},
+  abbr         = {NeurIPS},
+  selected     = {true},
+  abstract     = {AI-based talking-head videoconferencing systems reduce bandwidth by sending a compact pose-expression latent and re-synthesizing RGB at the receiver, but this latent can be puppeteered, letting an attacker hijack a victim's likeness in real time. Because every frame is synthetic, deepfake and synthetic video detectors fail outright. To address this security problem, we exploit a key observation: the pose-expression latent inherently contains biometric information of the driving identity. Therefore, we introduce the first biometric leakage defense without ever looking at the reconstructed RGB video: a pose-conditioned, large-margin contrastive encoder that isolates persistent identity cues inside the transmitted latent while cancelling transient pose and expression. A simple cosine test on this disentangled embedding flags illicit identity swaps as the video is rendered. Our experiments on multiple talking-head generation models show that our method consistently outperforms existing puppeteering defenses, operates in real-time, and shows strong generalization to out-of-distribution scenarios.}
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
-}
+@InProceedings{Vahdati_2024_CVPR,
+  author       = {Vahdati, Danial Samadi and Nguyen, Tai D. and Azizpour, Aref and Stamm, Matthew C.},
+  title        = {Beyond Deepfake Images: Detecting AI-Generated Videos},
+  booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  month        = {June},
+  year         = {2024},
+  pages        = {4397--4408},
+  abbr         = {CVPR},
+  selected     = {true},
+  abstract     = {Recent advances in generative AI have led to the development of techniques to generate visually realistic synthetic video. While a number of techniques have been developed to detect AI-generated synthetic images in this paper we show that synthetic image detectors are unable to detect synthetic videos. We demonstrate that this is because synthetic video generators introduce substantially different traces than those left by image generators. Despite this we show that synthetic video traces can be learned and used to perform reliable synthetic video detection or generator source attribution even after H. 264 re-compression. Furthermore we demonstrate that while detecting videos from new generators through zero-shot transferability is challenging accurate detection of videos from a new generator can be achieved through few-shot learning.}
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
-}
+@InProceedings{Vahdati_2023_CVPR,
+  author       = {Vahdati, Danial Samadi and Nguyen, Tai Duc and Stamm, Matthew C.},
+  title        = {Defending Low-Bandwidth Talking Head Videoconferencing Systems From Real-Time Puppeteering Attacks},
+  booktitle    = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  month        = {June},
+  year         = {2023},
+  pages        = {983--992},
+  abbr         = {CVPR},
+  selected     = {false},
+  abstract     = {Talking head videos have gained significant attention in recent years due to advances in AI that allow for the synthesis of realistic videos from only a single image of the speaker. Recently, researchers have proposed low bandwidth talking head video systems for use in applications such as videoconferencing and video calls. However, these systems are vulnerable to puppeteering attacks, where an attacker can control a synthetic version of a different target speaker in real-time. This can be potentially used spread misinformation or committing fraud. Because the receiver always creates a synthetic video of the speaker, deepfake detectors cannot protect against these attacks. As a result, there are currently no defenses against puppeteering in these systems. In this paper, we propose a new defense against puppeteering attacks in low-bandwidth talking head video systems by utilizing the biometric information inherent in the facial expression and pose data transmitted to the receiver. Our proposed system requires no modifications to the video transmission system and operates with low computational cost. We present experimental evidence to demonstrate the effectiveness of our proposed defense and provide a new dataset for benchmarking defenses against puppeteering attacks.}
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
-}
+@article{vahdati2023detecting,
+  title        = {Detecting GAN-Generated Synthetic Images Using Semantic Inconsistencies},
+  author       = {Vahdati, Danial Samadi and Stamm, Matthew C.},
+  journal      = {Electronic Imaging},
+  volume       = {35},
+  pages        = {1--6},
+  year         = {2023},
+  publisher    = {Society for Imaging Science and Technology},
+  abbr         = {EI},
+  selected     = {false},
+  abstract     = {In the past several years, generative adversarial networks have emerged that are capable of creating realistic synthetic images of human faces. Because these images can be used for malicious purposes, researchers have begun to develop techniques to synthetic images. Currently, the majority of existing techniques operate by searching for statistical traces introduced when an image is synthesized by a GAN. An alternative approach that has received comparatively less research involves using semantic inconsistencies detect synthetic images. While GAN-generated synthetic images appear visually realistic at first glance, they often contain subtle semantic inconsistencies such as inconsistent eye highlights, misaligned teeth, unrealistic hair textures, etc. In this paper, we propose a new approach to detect GAN-generated images of human faces by searching for semantic inconsistencies in multiple different facial features such as the eyes, mouth, and hair. Synthetic image detection decisions are made by fusing the outputs of these facial-feature-level detectors. Through a series of experiments, we demonstrate that this approach can yield strong synthetic image detection performance. Furthermore, we experimentally demonstrate that our approach is less susceptible to performance degradations caused by post-processing than CNN-based detectors utilize statistical traces.}
