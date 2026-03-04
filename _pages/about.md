@@ -28,9 +28,9 @@ I'm a PhD candidate in Electrical & Computer Engineering at Drexel University, w
 
 My work focuses on building detection systems that are fast enough to be deployed in the real world, not just accurate in a lab. My real-time deepfake detector runs at **75 FPS with 97.7% accuracy**, and my research has been published at **NeurIPS 2025** and **CVPR**. I collaborate with [NVIDIA Research](https://www.nvidia.com/en-us/research/) and my work is supported by federally funded projects totaling over $3M.
 
-I'm graduating in Summer 2026 and actively looking for **Research Scientist**, **Applied Scientist**, and **ML Engineer** roles in AI security, content integrity, and synthetic media. If you're working on hard problems in these areas, I'd love to connect.
+I'm graduating in Summer 2026 and actively looking for **Research Scientist**, **Applied Scientist**, and **ML Engineer** roles in AI security, content integrity, and AI-generated media. If you're working on hard problems in these areas, I'd love to connect.
 
-**Research interests:** deepfake detection · synthetic media forensics · adversarial ML · real-time vision systems · AI security
+**Research interests:** deepfake detection · AI-generated media forensics · adversarial ML · real-time vision systems · AI security
 
 ---
 
