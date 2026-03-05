@@ -1,0 +1,29 @@
+---
+layout: page
+title: Transferable Detection via Virtual Generators
+description: Novel technique to improve synthetic video detector generalization using parametric virtual generators that synthesize forensic microstructures. Under review at IHMMSEC 2026.
+img: assets/img/projects/virtual_generators.png
+importance: 3
+category: research
+---
+
+## Overview
+
+A fundamental challenge in AI-generated media detection is **generalization** — detectors trained on known generators often fail on new, unseen architectures. Standard data augmentation provides limited improvement because it doesn't capture the diversity of forensic traces introduced by different generators.
+
+## Key Idea
+
+We introduce **virtual generators** — parametric models that synthesize forensic microstructures not associated with any real generator. By training detectors on signals from these virtual generators, we expose the model to a richer space of forensic artifacts than any real training set can provide.
+
+## Approach
+
+Virtual generators model forensic microstructures using **2D autoregressive processes** with parameters informed by architectural patterns in modern video generators. This creates a principled way to sample from the space of possible generator artifacts without requiring access to new real generators.
+
+## Results
+
+- Significant improvement over traditional data augmentation in generalizing to unseen generator architectures
+- Strong performance on out-of-distribution generators never seen during training
+
+## Status
+
+Under review at **IHMMSEC 2026**.

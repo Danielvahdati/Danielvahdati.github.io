@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-title: # leave blank — will use full name
+title: blank
 first_name: Danial
 middle_name:
 last_name: Samadi Vahdati
@@ -41,7 +41,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 navbar_fixed: true
 footer_fixed: false
-search_enabled: true
+search_enabled: false
 socials_in_search: false
 bib_search: true
 
@@ -102,7 +102,7 @@ collections:
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: "Notes on AI Security"
-blog_description: "Technical writing on deepfake detection, synthetic media, and AI security"
+blog_description: "Technical writing on AI-Generated Media Detection, AI Security, and Multimedia Forensics."
 permalink: /blog/:year/:title/
 pagination:
   enabled: true
@@ -414,3 +414,6 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@2.1.8/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@2.1.8/dist/venobox.min.js"
 
+
+enable_navbar_social: true
+website_title: Danial Vahdati

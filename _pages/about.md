@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Candidate, Electrical & Computer Engineering · <a href="https://drexel.edu/ece/">Drexel University</a> · Philadelphia, PA
 
