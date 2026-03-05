@@ -67,6 +67,7 @@ medium_username: # add later when you start blogging
 # Analytics — add your Google Analytics ID later
 # -----------------------------------------------------------------------------
 google_analytics: G-33BE8H1DW9
+enable_google_analytics: true
 
 # -----------------------------------------------------------------------------
 # Publications
