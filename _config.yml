@@ -6,7 +6,7 @@ first_name: Danial
 middle_name:
 last_name: Samadi Vahdati
 email: danielsvahdati@gmail.com
-description: > 
+description: >
   PhD candidate in Electrical & Computer Engineering at Drexel University.
   Researching deepfake detection, AI security, and synthetic media forensics.
   Publishing at NeurIPS and CVPR. Collaborating with NVIDIA Research.
@@ -29,7 +29,7 @@ back_to_top: true
 repo_theme_light: default
 repo_theme_dark: dark
 repo_trophies:
-  enabled: false   # cleaner look for industry audience
+  enabled: false # cleaner look for industry audience
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -50,23 +50,23 @@ bib_search: true
 # -----------------------------------------------------------------------------
 serve_og_meta: true
 serve_schema_org: true
-og_image: /assets/img/profile.jpg   # update when you add your headshot
+og_image: /assets/img/profile.jpg # update when you add your headshot
 
 # -----------------------------------------------------------------------------
 # Social links — shown in footer and about page
 # -----------------------------------------------------------------------------
-contact_note:  # leave blank
+contact_note: # leave blank
 github_username: Danielvahdati
 linkedin_username: danial-vahdati-6a652b169
 scholar_userid: FzqABy8AAAAJ
-orcid_id:       # add if you have one
-twitter_username:  # add if you want
-medium_username:   # add later when you start blogging
+orcid_id: # add if you have one
+twitter_username: # add if you want
+medium_username: # add later when you start blogging
 
 # -----------------------------------------------------------------------------
 # Analytics — add your Google Analytics ID later
 # -----------------------------------------------------------------------------
-google_analytics:  # G-XXXXXXXXXX
+google_analytics: # G-XXXXXXXXXX
 
 # -----------------------------------------------------------------------------
 # Publications
@@ -76,9 +76,7 @@ enable_publication_badges:
   dimensions: true
   inspirehep: false
 
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, 
-                            selected, supp, blog, code, poster, slides, 
-                            website, preview, award]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, award]
 max_author_limit: 5
 more_authors_animation_delay: 10
 
@@ -413,7 +411,6 @@ third_party_libraries:
     url:
       css: "https://cdn.jsdelivr.net/npm/venobox@2.1.8/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@2.1.8/dist/venobox.min.js"
-
 
 enable_navbar_social: true
 website_title: Danial Vahdati

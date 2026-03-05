@@ -35,6 +35,7 @@ I'm graduating in Summer 2026 and actively looking for **Research Scientist**, *
 ---
 
 **News**
+
 - 🏆 **Dec 2025** — Presented poster at NeurIPS 2025, San Diego
 - 📄 **2025** — Unmasking Puppeteers: Leveraging Biometric Leakage to Disarm Impersonation in AI-based Videoconferencing paper accepted at NeurIPS 2025 main conference
 - 🤝 **2024** — NVIDIA Research collaboration + $150K research gift

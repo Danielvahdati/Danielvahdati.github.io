@@ -18,6 +18,7 @@ We engineered an end-to-end detection pipeline that exploits **temporal inconsis
 ## Dataset
 
 We constructed and released a large-scale benchmark dataset of **8M+ frames** spanning:
+
 - Transformer-based generators (Sora)
 - Diffusion-based generators (Runway AI, Stable Video Diffusion)
 - NeRF-based systems
